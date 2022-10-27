@@ -1,0 +1,1944 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name=ProgId content=Excel.Sheet>
+<title>Кросс-таблица</title>
+<style type="text/css">
+table {mso-displayed-decimal-separator:"\,"; mso-displayed-thousand-separator:" ";}
+  .c0{color: #333333; text-align: left; vertical-align: top; white-space: nowrap}
+  .c1{background-color: #0071bc; color: #ffffff; text-align: left; vertical-align: top; white-space: nowrap; white-space: nowrap; mso-number-format: "\@"}
+  .c2{background-color: #d1d4db; color: #333333; text-align: left; vertical-align: top; white-space: nowrap}
+  .c3{background-color: #ced9d1; color: #333333; text-align: left; vertical-align: top; white-space: nowrap}
+  .c4{color: #333333; text-align: right; vertical-align: top; white-space: nowrap; mso-number-format: "0\.00"}
+  .c5{background-color: #ced9d1; color: #333333; text-align: right; vertical-align: top; white-space: nowrap; mso-number-format: "0\.00"}
+  .c6{color: #ff0000; text-align: right; vertical-align: top; white-space: nowrap; mso-number-format: "0\.00"}
+  .c7{background-color: #ced9d1; color: #ff0000; text-align: right; vertical-align: top; white-space: nowrap; mso-number-format: "0\.00"}
+  .c8{background-color: #d1d4db; color: #333333; text-align: left; vertical-align: top; white-space: nowrap; mso-number-format: "\@"}
+  .c9{background-color: #ced9d1; color: #333333; text-align: left; vertical-align: top; white-space: nowrap; mso-number-format: "\@"}
+</style>
+<!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+   <x:ExcelWorksheet>
+    <x:Name>Лист1</x:Name>
+    <x:WorksheetOptions>
+     <x:Panes>
+      <x:Pane>
+       <x:Number>1</x:Number>
+      </x:Pane>
+     </x:Panes>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+ </x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+<body>
+<table border="1" cellspacing="0" cellpadding="2">
+<col width="164">
+<col width="96">
+<col width="96">
+<col width="96">
+<col width="96">
+<col width="96">
+<col width="96">
+<col width="96">
+<col width="96">
+<col width="96">
+<col width="96">
+<tr>
+<td  rowspan="2" ></td>
+<td class="c1" >ABC_client</td>
+</tr>
+<tr>
+<td class="c8" colspan="5" >A</td>
+<td class="c9" colspan="5" >Итого:</td>
+</tr>
+<tr>
+<td class="c1" >FullName</td>
+<td class="c2" >RoundAge</td>
+<td class="c2" >Income_K</td>
+<td class="c2" >Cars</td>
+<td class="c2" >Sales</td>
+<td class="c2" >Quantity</td>
+<td class="c3" >RoundAge</td>
+<td class="c3" >Income_K</td>
+<td class="c3" >Cars</td>
+<td class="c3" >Sales</td>
+<td class="c3" >Quantity</td>
+</tr>
+<tr>
+<td class="c8" >Alex Schuber</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="90">90,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="32992">32 992,00</td>
+<td class="c4" x:num="8">8,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="90">90,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="32992">32 992,00</td>
+<td class="c5" x:num="8">8,00</td>
+</tr>
+<tr>
+<td class="c8" >Alfreda Staffeld</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="130">130,00</td>
+<td class="c4" x:num="3">3,00</td>
+<td class="c4" x:num="12355.056">12 355,06</td>
+<td class="c4" x:num="3">3,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="130">130,00</td>
+<td class="c5" x:num="3">3,00</td>
+<td class="c5" x:num="12355.056">12 355,06</td>
+<td class="c5" x:num="3">3,00</td>
+</tr>
+<tr>
+<td class="c8" >Alvin Shen</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="20">20,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="2806.77166666667">2 806,77</td>
+<td class="c4" x:num="1.33333333333333">1,33</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="20">20,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="2806.77166666667">2 806,77</td>
+<td class="c5" x:num="1.33333333333333">1,33</td>
+</tr>
+<tr>
+<td class="c8" >Alvina Eddens</td>
+<td class="c4" x:num="80">80,00</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="0">0,00</td>
+<td class="c4" x:num="31152">31 152,00</td>
+<td class="c4" x:num="8">8,00</td>
+<td class="c5" x:num="80">80,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="0">0,00</td>
+<td class="c5" x:num="31152">31 152,00</td>
+<td class="c5" x:num="8">8,00</td>
+</tr>
+<tr>
+<td class="c8" >Angel Corter</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="35668.3392">35 668,34</td>
+<td class="c4" x:num="8">8,00</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="35668.3392">35 668,34</td>
+<td class="c5" x:num="8">8,00</td>
+</tr>
+<tr>
+<td class="c8" >Anthony White</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="10">10,00</td>
+<td class="c4" x:num="0">0,00</td>
+<td class="c4" x:num="3277.96">3 277,96</td>
+<td class="c4" x:num="2.33333333333333">2,33</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="10">10,00</td>
+<td class="c5" x:num="0">0,00</td>
+<td class="c5" x:num="3277.96">3 277,96</td>
+<td class="c5" x:num="2.33333333333333">2,33</td>
+</tr>
+<tr>
+<td class="c8" >Antone Niedens</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="31997.4767">31 997,48</td>
+<td class="c4" x:num="7">7,00</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="31997.4767">31 997,48</td>
+<td class="c5" x:num="7">7,00</td>
+</tr>
+<tr>
+<td class="c8" >Barb Robillard</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="120">120,00</td>
+<td class="c4" x:num="4">4,00</td>
+<td class="c4" x:num="30632">30 632,00</td>
+<td class="c4" x:num="8">8,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="120">120,00</td>
+<td class="c5" x:num="4">4,00</td>
+<td class="c5" x:num="30632">30 632,00</td>
+<td class="c5" x:num="8">8,00</td>
+</tr>
+<tr>
+<td class="c8" >Basil Narramore</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="12187.6192">12 187,62</td>
+<td class="c4" x:num="4">4,00</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="12187.6192">12 187,62</td>
+<td class="c5" x:num="4">4,00</td>
+</tr>
+<tr>
+<td class="c8" >Beatrice Elftman</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="0">0,00</td>
+<td class="c4" x:num="36206.48">36 206,48</td>
+<td class="c4" x:num="8">8,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="0">0,00</td>
+<td class="c5" x:num="36206.48">36 206,48</td>
+<td class="c5" x:num="8">8,00</td>
+</tr>
+<tr>
+<td class="c8" >Benjamin Kaneholani</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="13375.6272">13 375,63</td>
+<td class="c4" x:num="3">3,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="13375.6272">13 375,63</td>
+<td class="c5" x:num="3">3,00</td>
+</tr>
+<tr>
+<td class="c8" >Benjamin Lukens</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="100">100,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="39104">39 104,00</td>
+<td class="c4" x:num="8">8,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="100">100,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="39104">39 104,00</td>
+<td class="c5" x:num="8">8,00</td>
+</tr>
+<tr>
+<td class="c8" >Bethany Shen</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="0">0,00</td>
+<td class="c4" x:num="4894.95532">4 894,96</td>
+<td class="c4" x:num="1.8">1,80</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="0">0,00</td>
+<td class="c5" x:num="4894.95532">4 894,96</td>
+<td class="c5" x:num="1.8">1,80</td>
+</tr>
+<tr>
+<td class="c8" >Bette Grignon</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="90">90,00</td>
+<td class="c4" x:num="3">3,00</td>
+<td class="c4" x:num="22836.6656">22 836,67</td>
+<td class="c4" x:num="8">8,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="90">90,00</td>
+<td class="c5" x:num="3">3,00</td>
+<td class="c5" x:num="22836.6656">22 836,67</td>
+<td class="c5" x:num="8">8,00</td>
+</tr>
+<tr>
+<td class="c8" >Bradley Peroni</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="100">100,00</td>
+<td class="c4" x:num="0">0,00</td>
+<td class="c4" x:num="20488.7085">20 488,71</td>
+<td class="c4" x:num="5">5,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="100">100,00</td>
+<td class="c5" x:num="0">0,00</td>
+<td class="c5" x:num="20488.7085">20 488,71</td>
+<td class="c5" x:num="5">5,00</td>
+</tr>
+<tr>
+<td class="c8" >Brandy Lopez</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="20">20,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="1223.45333333333">1 223,45</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="20">20,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="1223.45333333333">1 223,45</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Brandy Saunders</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="70">70,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="1270.041">1 270,04</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="70">70,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="1270.041">1 270,04</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Bruce Solimeno</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="70">70,00</td>
+<td class="c4" x:num="3">3,00</td>
+<td class="c4" x:num="21328.3336">21 328,33</td>
+<td class="c4" x:num="7">7,00</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="70">70,00</td>
+<td class="c5" x:num="3">3,00</td>
+<td class="c5" x:num="21328.3336">21 328,33</td>
+<td class="c5" x:num="7">7,00</td>
+</tr>
+<tr>
+<td class="c8" >Bryan Bakken</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="130">130,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="29734.04">29 734,04</td>
+<td class="c4" x:num="7">7,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="130">130,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="29734.04">29 734,04</td>
+<td class="c5" x:num="7">7,00</td>
+</tr>
+<tr>
+<td class="c8" >Calvin She</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="20">20,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="410.5084">410,51</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="20">20,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="410.5084">410,51</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Candace Frankum</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="160">160,00</td>
+<td class="c4" x:num="3">3,00</td>
+<td class="c4" x:num="33981.76">33 981,76</td>
+<td class="c4" x:num="8">8,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="160">160,00</td>
+<td class="c5" x:num="3">3,00</td>
+<td class="c5" x:num="33981.76">33 981,76</td>
+<td class="c5" x:num="8">8,00</td>
+</tr>
+<tr>
+<td class="c8" >Carl Deng</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="80">80,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="1127.89893333333">1 127,90</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="80">80,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="1127.89893333333">1 127,90</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Carlton Bonnin</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="24546.2184">24 546,22</td>
+<td class="c4" x:num="6">6,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="24546.2184">24 546,22</td>
+<td class="c5" x:num="6">6,00</td>
+</tr>
+<tr>
+<td class="c8" >Caroline Price</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="80">80,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="637.35">637,35</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="80">80,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="637.35">637,35</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Cedric Sun</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="10">10,00</td>
+<td class="c4" x:num="0">0,00</td>
+<td class="c4" x:num="5081.8748">5 081,87</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="10">10,00</td>
+<td class="c5" x:num="0">0,00</td>
+<td class="c5" x:num="5081.8748">5 081,87</td>
+<td class="c5" x:num="2">2,00</td>
+</tr>
+<tr>
+<td class="c8" >Celestine Polczynski</td>
+<td class="c4" x:num="70">70,00</td>
+<td class="c4" x:num="80">80,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="35848">35 848,00</td>
+<td class="c4" x:num="8">8,00</td>
+<td class="c5" x:num="70">70,00</td>
+<td class="c5" x:num="80">80,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="35848">35 848,00</td>
+<td class="c5" x:num="8">8,00</td>
+</tr>
+<tr>
+<td class="c8" >Cesar Gonzalez</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="8103.3156">8 103,32</td>
+<td class="c4" x:num="3.5">3,50</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="8103.3156">8 103,32</td>
+<td class="c5" x:num="3.5">3,50</td>
+</tr>
+<tr>
+<td class="c8" >Chad Shen</td>
+<td class="c4" x:num="70">70,00</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="530.2264">530,23</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="70">70,00</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="530.2264">530,23</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Charles Walker</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="90">90,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="5172.90586666667">5 172,91</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="90">90,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="5172.90586666667">5 172,91</td>
+<td class="c5" x:num="2">2,00</td>
+</tr>
+<tr>
+<td class="c8" >Cody Kollman</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="19723.179">19 723,18</td>
+<td class="c4" x:num="5">5,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="19723.179">19 723,18</td>
+<td class="c5" x:num="5">5,00</td>
+</tr>
+<tr>
+<td class="c8" >Crystal Zeng</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="16212.5">16 212,50</td>
+<td class="c4" x:num="4.5">4,50</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="16212.5">16 212,50</td>
+<td class="c5" x:num="4.5">4,50</td>
+</tr>
+<tr>
+<td class="c8" >Dakota Bryant</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="20">20,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="658.8926">658,89</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="20">20,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="658.8926">658,89</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Dakota Simmons</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="584.844533333333">584,84</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="584.844533333333">584,84</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Danette Vovak</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="80">80,00</td>
+<td class="c4" x:num="3">3,00</td>
+<td class="c4" x:num="25178.088">25 178,09</td>
+<td class="c4" x:num="5">5,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="80">80,00</td>
+<td class="c5" x:num="3">3,00</td>
+<td class="c5" x:num="25178.088">25 178,09</td>
+<td class="c5" x:num="5">5,00</td>
+</tr>
+<tr>
+<td class="c8" >Daniel Martinez</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="651.017866666667">651,02</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="651.017866666667">651,02</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Darrel Waterfall</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="0">0,00</td>
+<td class="c4" x:num="31997.4767">31 997,48</td>
+<td class="c4" x:num="7">7,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="0">0,00</td>
+<td class="c5" x:num="31997.4767">31 997,48</td>
+<td class="c5" x:num="7">7,00</td>
+</tr>
+<tr>
+<td class="c8" >Darryl Ye</td>
+<td class="c4" x:num="70">70,00</td>
+<td class="c4" x:num="90">90,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="1196.83536666667">1 196,84</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="70">70,00</td>
+<td class="c5" x:num="90">90,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="1196.83536666667">1 196,84</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Diana Ortega</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="954.468033333333">954,47</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="954.468033333333">954,47</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Ebony Diaz</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="10088.5939666667">10 088,59</td>
+<td class="c4" x:num="3">3,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="10088.5939666667">10 088,59</td>
+<td class="c5" x:num="3">3,00</td>
+</tr>
+<tr>
+<td class="c8" >Ebony Martinez</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="0">0,00</td>
+<td class="c4" x:num="696.353333333333">696,35</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="0">0,00</td>
+<td class="c5" x:num="696.353333333333">696,35</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Eduardo Harris</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="70">70,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="411.06355">411,06</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="70">70,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="411.06355">411,06</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Eileen Muhlenkamp</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="100">100,00</td>
+<td class="c4" x:num="4">4,00</td>
+<td class="c4" x:num="12273.1092">12 273,11</td>
+<td class="c4" x:num="3">3,00</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="100">100,00</td>
+<td class="c5" x:num="4">4,00</td>
+<td class="c5" x:num="12273.1092">12 273,11</td>
+<td class="c5" x:num="3">3,00</td>
+</tr>
+<tr>
+<td class="c8" >Eldridge Gutzmer</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="16390.9668">16 390,97</td>
+<td class="c4" x:num="4">4,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="16390.9668">16 390,97</td>
+<td class="c5" x:num="4">4,00</td>
+</tr>
+<tr>
+<td class="c8" >Elisha Noyola</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="31209.7968">31 209,80</td>
+<td class="c4" x:num="7">7,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="31209.7968">31 209,80</td>
+<td class="c5" x:num="7">7,00</td>
+</tr>
+<tr>
+<td class="c8" >Ellie Propp</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="17329.647">17 329,65</td>
+<td class="c4" x:num="5">5,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="17329.647">17 329,65</td>
+<td class="c5" x:num="5">5,00</td>
+</tr>
+<tr>
+<td class="c8" >Emerson Aldaba</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="70">70,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="11691.0768">11 691,08</td>
+<td class="c4" x:num="6">6,00</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="70">70,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="11691.0768">11 691,08</td>
+<td class="c5" x:num="6">6,00</td>
+</tr>
+<tr>
+<td class="c8" >Ernest Lin</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="0">0,00</td>
+<td class="c4" x:num="1207.62666666667">1 207,63</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="0">0,00</td>
+<td class="c5" x:num="1207.62666666667">1 207,63</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Ester Lafoy</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="90">90,00</td>
+<td class="c4" x:num="4">4,00</td>
+<td class="c4" x:num="20142.4704">20 142,47</td>
+<td class="c4" x:num="4">4,00</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="90">90,00</td>
+<td class="c5" x:num="4">4,00</td>
+<td class="c5" x:num="20142.4704">20 142,47</td>
+<td class="c5" x:num="4">4,00</td>
+</tr>
+<tr>
+<td class="c8" >Ester Schuerholz</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="21328.3336">21 328,33</td>
+<td class="c4" x:num="7">7,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="21328.3336">21 328,33</td>
+<td class="c5" x:num="7">7,00</td>
+</tr>
+<tr>
+<td class="c8" >Felecia Clabaugh</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="17500.6064">17 500,61</td>
+<td class="c4" x:num="4">4,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="17500.6064">17 500,61</td>
+<td class="c5" x:num="4">4,00</td>
+</tr>
+<tr>
+<td class="c8" >Florencio Verkler</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="80">80,00</td>
+<td class="c4" x:num="0">0,00</td>
+<td class="c4" x:num="31997.4767">31 997,48</td>
+<td class="c4" x:num="7">7,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="80">80,00</td>
+<td class="c5" x:num="0">0,00</td>
+<td class="c5" x:num="31997.4767">31 997,48</td>
+<td class="c5" x:num="7">7,00</td>
+</tr>
+<tr>
+<td class="c8" >Flossie Srock</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="80">80,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="30938.32">30 938,32</td>
+<td class="c4" x:num="8">8,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="80">80,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="30938.32">30 938,32</td>
+<td class="c5" x:num="8">8,00</td>
+</tr>
+<tr>
+<td class="c8" >Frank Carlson</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="0">0,00</td>
+<td class="c4" x:num="582.583333333333">582,58</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="0">0,00</td>
+<td class="c5" x:num="582.583333333333">582,58</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Gary Blanco</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="80">80,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="1140.2203">1 140,22</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="80">80,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="1140.2203">1 140,22</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Gil Krizek</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="0">0,00</td>
+<td class="c4" x:num="21118.708">21 118,71</td>
+<td class="c4" x:num="5">5,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="0">0,00</td>
+<td class="c5" x:num="21118.708">21 118,71</td>
+<td class="c5" x:num="5">5,00</td>
+</tr>
+<tr>
+<td class="c8" >Gina Hernandez</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="120">120,00</td>
+<td class="c4" x:num="4">4,00</td>
+<td class="c4" x:num="5389.284">5 389,28</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="120">120,00</td>
+<td class="c5" x:num="4">4,00</td>
+<td class="c5" x:num="5389.284">5 389,28</td>
+<td class="c5" x:num="2">2,00</td>
+</tr>
+<tr>
+<td class="c8" >Gordon Hellberg</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="20">20,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="28684.1919">28 684,19</td>
+<td class="c4" x:num="7">7,00</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="20">20,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="28684.1919">28 684,19</td>
+<td class="c5" x:num="7">7,00</td>
+</tr>
+<tr>
+<td class="c8" >Haley Edwards</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="110">110,00</td>
+<td class="c4" x:num="3">3,00</td>
+<td class="c4" x:num="700.638666666667">700,64</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="110">110,00</td>
+<td class="c5" x:num="3">3,00</td>
+<td class="c5" x:num="700.638666666667">700,64</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Hans Dufilho</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="20">20,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="16390.9668">16 390,97</td>
+<td class="c4" x:num="4">4,00</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="20">20,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="16390.9668">16 390,97</td>
+<td class="c5" x:num="4">4,00</td>
+</tr>
+<tr>
+<td class="c8" >Harrison Hickert</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="70">70,00</td>
+<td class="c4" x:num="0">0,00</td>
+<td class="c4" x:num="12290.1042">12 290,10</td>
+<td class="c4" x:num="6">6,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="70">70,00</td>
+<td class="c5" x:num="0">0,00</td>
+<td class="c5" x:num="12290.1042">12 290,10</td>
+<td class="c5" x:num="6">6,00</td>
+</tr>
+<tr>
+<td class="c8" >Herb Howell</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="30213.7056">30 213,71</td>
+<td class="c4" x:num="6">6,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="30213.7056">30 213,71</td>
+<td class="c5" x:num="6">6,00</td>
+</tr>
+<tr>
+<td class="c8" >Hollis Radmacher</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="18284.2724">18 284,27</td>
+<td class="c4" x:num="4">4,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="18284.2724">18 284,27</td>
+<td class="c5" x:num="4">4,00</td>
+</tr>
+<tr>
+<td class="c8" >Hugh Arrey</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="12273.1092">12 273,11</td>
+<td class="c4" x:num="3">3,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="12273.1092">12 273,11</td>
+<td class="c5" x:num="3">3,00</td>
+</tr>
+<tr>
+<td class="c8" >Isabella Wildfong</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="70">70,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="30626.0612">30 626,06</td>
+<td class="c4" x:num="7">7,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="70">70,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="30626.0612">30 626,06</td>
+<td class="c5" x:num="7">7,00</td>
+</tr>
+<tr>
+<td class="c8" >Jaime Gomez</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="0">0,00</td>
+<td class="c4" x:num="2785.7169">2 785,72</td>
+<td class="c4" x:num="1.33333333333333">1,33</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="0">0,00</td>
+<td class="c5" x:num="2785.7169">2 785,72</td>
+<td class="c5" x:num="1.33333333333333">1,33</td>
+</tr>
+<tr>
+<td class="c8" >Jamar Saranzak</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="10">10,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="10241.7535">10 241,75</td>
+<td class="c4" x:num="5">5,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="10">10,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="10241.7535">10 241,75</td>
+<td class="c5" x:num="5">5,00</td>
+</tr>
+<tr>
+<td class="c8" >Jan Milla</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="0">0,00</td>
+<td class="c4" x:num="10241.7535">10 241,75</td>
+<td class="c4" x:num="5">5,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="0">0,00</td>
+<td class="c5" x:num="10241.7535">10 241,75</td>
+<td class="c5" x:num="5">5,00</td>
+</tr>
+<tr>
+<td class="c8" >Janette Hoganson</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="36568.5448">36 568,54</td>
+<td class="c4" x:num="8">8,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="36568.5448">36 568,54</td>
+<td class="c5" x:num="8">8,00</td>
+</tr>
+<tr>
+<td class="c8" >Jenna Eytcheson</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="100">100,00</td>
+<td class="c4" x:num="4">4,00</td>
+<td class="c4" x:num="30213.7056">30 213,71</td>
+<td class="c4" x:num="6">6,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="100">100,00</td>
+<td class="c5" x:num="4">4,00</td>
+<td class="c5" x:num="30213.7056">30 213,71</td>
+<td class="c5" x:num="6">6,00</td>
+</tr>
+<tr>
+<td class="c8" >Jill Ashe</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="3729.79413333333">3 729,79</td>
+<td class="c4" x:num="1.33333333333333">1,33</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="3729.79413333333">3 729,79</td>
+<td class="c5" x:num="1.33333333333333">1,33</td>
+</tr>
+<tr>
+<td class="c8" >Joel Naugle</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="70">70,00</td>
+<td class="c4" x:num="0">0,00</td>
+<td class="c4" x:num="35249.3232">35 249,32</td>
+<td class="c4" x:num="7">7,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="70">70,00</td>
+<td class="c5" x:num="0">0,00</td>
+<td class="c5" x:num="35249.3232">35 249,32</td>
+<td class="c5" x:num="7">7,00</td>
+</tr>
+<tr>
+<td class="c8" >Jorge Ma</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="10">10,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="527.630425">527,63</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="10">10,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="527.630425">527,63</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Julie Sharma</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="1034.13493333333">1 034,13</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="1034.13493333333">1 034,13</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Karen Smith</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="70">70,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="456.06285">456,06</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="70">70,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="456.06285">456,06</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Karen Zhu</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="0">0,00</td>
+<td class="c4" x:num="1220.35733333333">1 220,36</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="0">0,00</td>
+<td class="c5" x:num="1220.35733333333">1 220,36</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Karla She</td>
+<td class="c4" x:num="70">70,00</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="1082.4244">1 082,42</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="70">70,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="1082.4244">1 082,42</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Katelyn Lopez</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="10">10,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="780.311133333333">780,31</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="10">10,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="780.311133333333">780,31</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Katherine Rea</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="130">130,00</td>
+<td class="c4" x:num="3">3,00</td>
+<td class="c4" x:num="19723.179">19 723,18</td>
+<td class="c4" x:num="5">5,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="130">130,00</td>
+<td class="c5" x:num="3">3,00</td>
+<td class="c5" x:num="19723.179">19 723,18</td>
+<td class="c5" x:num="5">5,00</td>
+</tr>
+<tr>
+<td class="c8" >Kelvin Xu</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="0">0,00</td>
+<td class="c4" x:num="618.855466666667">618,86</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="0">0,00</td>
+<td class="c5" x:num="618.855466666667">618,86</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Krista Jimenez</td>
+<td class="c4" x:num="70">70,00</td>
+<td class="c4" x:num="10">10,00</td>
+<td class="c4" x:num="0">0,00</td>
+<td class="c4" x:num="531.953333333333">531,95</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="70">70,00</td>
+<td class="c5" x:num="10">10,00</td>
+<td class="c5" x:num="0">0,00</td>
+<td class="c5" x:num="531.953333333333">531,95</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Lawrence Alonso</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="0">0,00</td>
+<td class="c4" x:num="686.369066666667">686,37</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="0">0,00</td>
+<td class="c5" x:num="686.369066666667">686,37</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Leah Xu</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="0">0,00</td>
+<td class="c4" x:num="1024.42">1 024,42</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="0">0,00</td>
+<td class="c5" x:num="1024.42">1 024,42</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Leonor Yanez</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="80">80,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="17500.6064">17 500,61</td>
+<td class="c4" x:num="4">4,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="80">80,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="17500.6064">17 500,61</td>
+<td class="c5" x:num="4">4,00</td>
+</tr>
+<tr>
+<td class="c8" >Letha Mengwasser</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="0">0,00</td>
+<td class="c4" x:num="20926.9632">20 926,96</td>
+<td class="c4" x:num="4">4,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="0">0,00</td>
+<td class="c5" x:num="20926.9632">20 926,96</td>
+<td class="c5" x:num="4">4,00</td>
+</tr>
+<tr>
+<td class="c8" >Lisa Kuhlmey</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="0">0,00</td>
+<td class="c4" x:num="33789.9328">33 789,93</td>
+<td class="c4" x:num="8">8,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="0">0,00</td>
+<td class="c5" x:num="33789.9328">33 789,93</td>
+<td class="c5" x:num="8">8,00</td>
+</tr>
+<tr>
+<td class="c8" >Lona Lagrave</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="18284.2724">18 284,27</td>
+<td class="c4" x:num="4">4,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="18284.2724">18 284,27</td>
+<td class="c5" x:num="4">4,00</td>
+</tr>
+<tr>
+<td class="c8" >Marc Torres</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="120">120,00</td>
+<td class="c4" x:num="3">3,00</td>
+<td class="c4" x:num="8685.22713333333">8 685,23</td>
+<td class="c4" x:num="2.66666666666667">2,67</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="120">120,00</td>
+<td class="c5" x:num="3">3,00</td>
+<td class="c5" x:num="8685.22713333333">8 685,23</td>
+<td class="c5" x:num="2.66666666666667">2,67</td>
+</tr>
+<tr>
+<td class="c8" >Maria Coleman</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="110">110,00</td>
+<td class="c4" x:num="3">3,00</td>
+<td class="c4" x:num="7195.543">7 195,54</td>
+<td class="c4" x:num="3">3,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="110">110,00</td>
+<td class="c5" x:num="3">3,00</td>
+<td class="c5" x:num="7195.543">7 195,54</td>
+<td class="c5" x:num="3">3,00</td>
+</tr>
+<tr>
+<td class="c8" >Marian Latif</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="20">20,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="20455.182">20 455,18</td>
+<td class="c4" x:num="5">5,00</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="20">20,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="20455.182">20 455,18</td>
+<td class="c5" x:num="5">5,00</td>
+</tr>
+<tr>
+<td class="c8" >Martina Trimble</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="10">10,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="31512">31 512,00</td>
+<td class="c4" x:num="8">8,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="10">10,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="31512">31 512,00</td>
+<td class="c5" x:num="8">8,00</td>
+</tr>
+<tr>
+<td class="c8" >Mason Allen</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="0">0,00</td>
+<td class="c4" x:num="948.16375">948,16</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="0">0,00</td>
+<td class="c5" x:num="948.16375">948,16</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Mathew Suarez</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="100">100,00</td>
+<td class="c4" x:num="3">3,00</td>
+<td class="c4" x:num="8121.82053333333">8 121,82</td>
+<td class="c4" x:num="2.66666666666667">2,67</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="100">100,00</td>
+<td class="c5" x:num="3">3,00</td>
+<td class="c5" x:num="8121.82053333333">8 121,82</td>
+<td class="c5" x:num="2.66666666666667">2,67</td>
+</tr>
+<tr>
+<td class="c8" >Max Serrano</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="80">80,00</td>
+<td class="c4" x:num="0">0,00</td>
+<td class="c4" x:num="622.638333333333">622,64</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="80">80,00</td>
+<td class="c5" x:num="0">0,00</td>
+<td class="c5" x:num="622.638333333333">622,64</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Mohammed Birkenholz</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="80">80,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="30632">30 632,00</td>
+<td class="c4" x:num="8">8,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="80">80,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="30632">30 632,00</td>
+<td class="c5" x:num="8">8,00</td>
+</tr>
+<tr>
+<td class="c8" >Morgan Sanchez</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="0">0,00</td>
+<td class="c4" x:num="818.5382">818,54</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="0">0,00</td>
+<td class="c5" x:num="818.5382">818,54</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Myron Votaua</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="80">80,00</td>
+<td class="c4" x:num="3">3,00</td>
+<td class="c4" x:num="32781.9336">32 781,93</td>
+<td class="c4" x:num="8">8,00</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="80">80,00</td>
+<td class="c5" x:num="3">3,00</td>
+<td class="c5" x:num="32781.9336">32 781,93</td>
+<td class="c5" x:num="8">8,00</td>
+</tr>
+<tr>
+<td class="c8" >Nichole She</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="20">20,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="1519.25853333333">1 519,26</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="20">20,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="1519.25853333333">1 519,26</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Nicky Mcintosh</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="27612.4506">27 612,45</td>
+<td class="c4" x:num="7">7,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="27612.4506">27 612,45</td>
+<td class="c5" x:num="7">7,00</td>
+</tr>
+<tr>
+<td class="c8" >Paige Hughes</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="610.5006">610,50</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="610.5006">610,50</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Pauline Vote</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="30626.0612">30 626,06</td>
+<td class="c4" x:num="7">7,00</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="30626.0612">30 626,06</td>
+<td class="c5" x:num="7">7,00</td>
+</tr>
+<tr>
+<td class="c8" >Rachael Suri</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="90">90,00</td>
+<td class="c4" x:num="3">3,00</td>
+<td class="c4" x:num="10385.5074">10 385,51</td>
+<td class="c4" x:num="3">3,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="90">90,00</td>
+<td class="c5" x:num="3">3,00</td>
+<td class="c5" x:num="10385.5074">10 385,51</td>
+<td class="c5" x:num="3">3,00</td>
+</tr>
+<tr>
+<td class="c8" >Rafael Tang</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="70">70,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="953.346133333333">953,35</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="70">70,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="953.346133333333">953,35</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Rebekah Serrano</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="20">20,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="17638.7016">17 638,70</td>
+<td class="c4" x:num="4">4,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="20">20,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="17638.7016">17 638,70</td>
+<td class="c5" x:num="4">4,00</td>
+</tr>
+<tr>
+<td class="c8" >Reed Peacher</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="70">70,00</td>
+<td class="c4" x:num="3">3,00</td>
+<td class="c4" x:num="15223.194">15 223,19</td>
+<td class="c4" x:num="6">6,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="70">70,00</td>
+<td class="c5" x:num="3">3,00</td>
+<td class="c5" x:num="15223.194">15 223,19</td>
+<td class="c5" x:num="6">6,00</td>
+</tr>
+<tr>
+<td class="c8" >Ricardo Kumar</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="10">10,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="921.055">921,06</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="10">10,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="921.055">921,06</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Robbie Castruita</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="39104">39 104,00</td>
+<td class="c4" x:num="8">8,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="39104">39 104,00</td>
+<td class="c5" x:num="8">8,00</td>
+</tr>
+<tr>
+<td class="c8" >Roberto Romero</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="0">0,00</td>
+<td class="c4" x:num="14272.916">14 272,92</td>
+<td class="c4" x:num="5">5,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="0">0,00</td>
+<td class="c5" x:num="14272.916">14 272,92</td>
+<td class="c5" x:num="5">5,00</td>
+</tr>
+<tr>
+<td class="c8" >Rodrick Tokkesdal</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="11245.5824">11 245,58</td>
+<td class="c4" x:num="4">4,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="11245.5824">11 245,58</td>
+<td class="c5" x:num="4">4,00</td>
+</tr>
+<tr>
+<td class="c8" >Ronald Suri</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="160">160,00</td>
+<td class="c4" x:num="4">4,00</td>
+<td class="c4" x:num="592.3625">592,36</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="160">160,00</td>
+<td class="c5" x:num="4">4,00</td>
+<td class="c5" x:num="592.3625">592,36</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Rosanne Husak</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="24586.4502">24 586,45</td>
+<td class="c4" x:num="6">6,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="24586.4502">24 586,45</td>
+<td class="c5" x:num="6">6,00</td>
+</tr>
+<tr>
+<td class="c8" >Sara Brooks</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="90">90,00</td>
+<td class="c4" x:num="3">3,00</td>
+<td class="c4" x:num="545.253333333333">545,25</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="90">90,00</td>
+<td class="c5" x:num="3">3,00</td>
+<td class="c5" x:num="545.253333333333">545,25</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Sebastian Loder</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="14500.3812">14 500,38</td>
+<td class="c4" x:num="6">6,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="14500.3812">14 500,38</td>
+<td class="c5" x:num="6">6,00</td>
+</tr>
+<tr>
+<td class="c8" >Shane Gonzalez</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="10">10,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="8902.8147">8 902,81</td>
+<td class="c4" x:num="4">4,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="10">10,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="8902.8147">8 902,81</td>
+<td class="c5" x:num="4">4,00</td>
+</tr>
+<tr>
+<td class="c8" >Sharon Yuan</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="2008.32385">2 008,32</td>
+<td class="c4" x:num="1.5">1,50</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="2008.32385">2 008,32</td>
+<td class="c5" x:num="1.5">1,50</td>
+</tr>
+<tr>
+<td class="c8" >Sheila Blanco</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="80">80,00</td>
+<td class="c4" x:num="3">3,00</td>
+<td class="c4" x:num="720.086666666667">720,09</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="80">80,00</td>
+<td class="c5" x:num="3">3,00</td>
+<td class="c5" x:num="720.086666666667">720,09</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Sidney Flickner</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="70">70,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="12290.1042">12 290,10</td>
+<td class="c4" x:num="6">6,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="70">70,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="12290.1042">12 290,10</td>
+<td class="c5" x:num="6">6,00</td>
+</tr>
+<tr>
+<td class="c8" >Sierra Klipfel</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="100">100,00</td>
+<td class="c4" x:num="4">4,00</td>
+<td class="c4" x:num="22855.3405">22 855,34</td>
+<td class="c4" x:num="5">5,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="100">100,00</td>
+<td class="c5" x:num="4">4,00</td>
+<td class="c5" x:num="22855.3405">22 855,34</td>
+<td class="c5" x:num="5">5,00</td>
+</tr>
+<tr>
+<td class="c8" >Stacie Yokley</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="31209.7968">31 209,80</td>
+<td class="c4" x:num="7">7,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="31209.7968">31 209,80</td>
+<td class="c5" x:num="7">7,00</td>
+</tr>
+<tr>
+<td class="c8" >Stanley Weber</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="90">90,00</td>
+<td class="c4" x:num="0">0,00</td>
+<td class="c4" x:num="13217.4708">13 217,47</td>
+<td class="c4" x:num="3">3,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="90">90,00</td>
+<td class="c5" x:num="0">0,00</td>
+<td class="c5" x:num="13217.4708">13 217,47</td>
+<td class="c5" x:num="3">3,00</td>
+</tr>
+<tr>
+<td class="c8" >Steven Spaman</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="70">70,00</td>
+<td class="c4" x:num="0">0,00</td>
+<td class="c4" x:num="16894.9664">16 894,97</td>
+<td class="c4" x:num="4">4,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="70">70,00</td>
+<td class="c5" x:num="0">0,00</td>
+<td class="c5" x:num="16894.9664">16 894,97</td>
+<td class="c5" x:num="4">4,00</td>
+</tr>
+<tr>
+<td class="c8" >Sylvia Flusche</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="70">70,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="24375.2384">24 375,24</td>
+<td class="c4" x:num="8">8,00</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="70">70,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="24375.2384">24 375,24</td>
+<td class="c5" x:num="8">8,00</td>
+</tr>
+<tr>
+<td class="c8" >Tabatha Alexnder</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="70">70,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="35848">35 848,00</td>
+<td class="c4" x:num="8">8,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="70">70,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="35848">35 848,00</td>
+<td class="c5" x:num="8">8,00</td>
+</tr>
+<tr>
+<td class="c8" >Tammy Garcia</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="10">10,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="2070.3575">2 070,36</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="10">10,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="2070.3575">2 070,36</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Tanya Ramos</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="10">10,00</td>
+<td class="c4" x:num="0">0,00</td>
+<td class="c4" x:num="608.256666666667">608,26</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="10">10,00</td>
+<td class="c5" x:num="0">0,00</td>
+<td class="c5" x:num="608.256666666667">608,26</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Tasha Freeland</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="17834.1696">17 834,17</td>
+<td class="c4" x:num="4">4,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="17834.1696">17 834,17</td>
+<td class="c5" x:num="4">4,00</td>
+</tr>
+<tr>
+<td class="c8" >Tera Motes</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="80">80,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="31367">31 367,00</td>
+<td class="c4" x:num="7">7,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="80">80,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="31367">31 367,00</td>
+<td class="c5" x:num="7">7,00</td>
+</tr>
+<tr>
+<td class="c8" >Terry Jai</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="130">130,00</td>
+<td class="c4" x:num="0">0,00</td>
+<td class="c4" x:num="1176.05596666667">1 176,06</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="130">130,00</td>
+<td class="c5" x:num="0">0,00</td>
+<td class="c5" x:num="1176.05596666667">1 176,06</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Toni Arun</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="0">0,00</td>
+<td class="c4" x:num="636.5364">636,54</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="0">0,00</td>
+<td class="c5" x:num="636.5364">636,54</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Tori Heryford</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="90">90,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="17834.1696">17 834,17</td>
+<td class="c4" x:num="4">4,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="90">90,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="17834.1696">17 834,17</td>
+<td class="c5" x:num="4">4,00</td>
+</tr>
+<tr>
+<td class="c8" >Ty Agard</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="90">90,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="24710.112">24 710,11</td>
+<td class="c4" x:num="6">6,00</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="90">90,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="24710.112">24 710,11</td>
+<td class="c5" x:num="6">6,00</td>
+</tr>
+<tr>
+<td class="c8" >Valerie Zhou</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="90">90,00</td>
+<td class="c4" x:num="0">0,00</td>
+<td class="c4" x:num="1504.56">1 504,56</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="90">90,00</td>
+<td class="c5" x:num="0">0,00</td>
+<td class="c5" x:num="1504.56">1 504,56</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Verna Fertik</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="10">10,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="32086.56">32 086,56</td>
+<td class="c4" x:num="8">8,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="10">10,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="32086.56">32 086,56</td>
+<td class="c5" x:num="8">8,00</td>
+</tr>
+<tr>
+<td class="c8" >Vicky Browman</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="70">70,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="12685.995">12 686,00</td>
+<td class="c4" x:num="5">5,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="70">70,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="12685.995">12 686,00</td>
+<td class="c5" x:num="5">5,00</td>
+</tr>
+<tr>
+<td class="c8" >Virginia Sara</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="1261.977975">1 261,98</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="1261.977975">1 261,98</td>
+<td class="c5" x:num="1">1,00</td>
+</tr>
+<tr>
+<td class="c8" >Wade Lesneski</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="10">10,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="23667.8148">23 667,81</td>
+<td class="c4" x:num="6">6,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="10">10,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="23667.8148">23 667,81</td>
+<td class="c5" x:num="6">6,00</td>
+</tr>
+<tr>
+<td class="c8" >Warren Chander</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="4">4,00</td>
+<td class="c4" x:num="5609.03333333333">5 609,03</td>
+<td class="c4" x:num="1.66666666666667">1,67</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="4">4,00</td>
+<td class="c5" x:num="5609.03333333333">5 609,03</td>
+<td class="c5" x:num="1.66666666666667">1,67</td>
+</tr>
+<tr>
+<td class="c8" >Wilbert Doyon</td>
+<td class="c4" x:num="50">50,00</td>
+<td class="c4" x:num="70">70,00</td>
+<td class="c4" x:num="1">1,00</td>
+<td class="c4" x:num="30476.16">30 476,16</td>
+<td class="c4" x:num="6">6,00</td>
+<td class="c5" x:num="50">50,00</td>
+<td class="c5" x:num="70">70,00</td>
+<td class="c5" x:num="1">1,00</td>
+<td class="c5" x:num="30476.16">30 476,16</td>
+<td class="c5" x:num="6">6,00</td>
+</tr>
+<tr>
+<td class="c8" >Williams Lighthall</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="70">70,00</td>
+<td class="c4" x:num="0">0,00</td>
+<td class="c4" x:num="16386.8056">16 386,81</td>
+<td class="c4" x:num="8">8,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="70">70,00</td>
+<td class="c5" x:num="0">0,00</td>
+<td class="c5" x:num="16386.8056">16 386,81</td>
+<td class="c5" x:num="8">8,00</td>
+</tr>
+<tr>
+<td class="c8" >Willie Black</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="90">90,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="9152.115">9 152,12</td>
+<td class="c4" x:num="2.5">2,50</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="90">90,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="9152.115">9 152,12</td>
+<td class="c5" x:num="2.5">2,50</td>
+</tr>
+<tr>
+<td class="c8" >Willie Xu</td>
+<td class="c4" x:num="60">60,00</td>
+<td class="c4" x:num="90">90,00</td>
+<td class="c4" x:num="3">3,00</td>
+<td class="c4" x:num="13632.0612">13 632,06</td>
+<td class="c4" x:num="3.5">3,50</td>
+<td class="c5" x:num="60">60,00</td>
+<td class="c5" x:num="90">90,00</td>
+<td class="c5" x:num="3">3,00</td>
+<td class="c5" x:num="13632.0612">13 632,06</td>
+<td class="c5" x:num="3.5">3,50</td>
+</tr>
+<tr>
+<td class="c8" >Yong Zin</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="130">130,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="21328.3336">21 328,33</td>
+<td class="c4" x:num="7">7,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="130">130,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="21328.3336">21 328,33</td>
+<td class="c5" x:num="7">7,00</td>
+</tr>
+<tr>
+<td class="c8" >Yvette Haine</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="70">70,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="15234.524">15 234,52</td>
+<td class="c4" x:num="5">5,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="70">70,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="15234.524">15 234,52</td>
+<td class="c5" x:num="5">5,00</td>
+</tr>
+<tr>
+<td class="c8" >Zackary Takala</td>
+<td class="c4" x:num="30">30,00</td>
+<td class="c4" x:num="40">40,00</td>
+<td class="c4" x:num="2">2,00</td>
+<td class="c4" x:num="36568.5448">36 568,54</td>
+<td class="c4" x:num="8">8,00</td>
+<td class="c5" x:num="30">30,00</td>
+<td class="c5" x:num="40">40,00</td>
+<td class="c5" x:num="2">2,00</td>
+<td class="c5" x:num="36568.5448">36 568,54</td>
+<td class="c5" x:num="8">8,00</td>
+</tr>
+<tr>
+<td class="c9" >Итого:</td>
+<td class="c5" x:num="44.3416370106762">44,34</td>
+<td class="c5" x:num="57.8291814946619">57,83</td>
+<td class="c5" x:num="1.44483985765125">1,44</td>
+<td class="c5" x:num="8669.76025338078">8 669,76</td>
+<td class="c5" x:num="2.71886120996441">2,72</td>
+<td class="c5" x:num="44.3416370106762">44,34</td>
+<td class="c5" x:num="57.8291814946619">57,83</td>
+<td class="c5" x:num="1.44483985765125">1,44</td>
+<td class="c5" x:num="8669.76025338078">8 669,76</td>
+<td class="c5" x:num="2.71886120996441">2,72</td>
+</tr>
+</table>
+</body>
+</html>
