@@ -1,2 +1,2 @@
 # Krivoschekova
-for my projects
+For my projects
