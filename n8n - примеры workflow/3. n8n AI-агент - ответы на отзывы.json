@@ -1,0 +1,364 @@
+{
+  "name": "Ответы на отзывы",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "hours"
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.3,
+      "position": [
+        16,
+        0
+      ],
+      "id": "7cc199cf-35b3-4da8-a335-e4201f82c156",
+      "name": "Schedule Trigger"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "YOUR_id",
+              "name": "reviews",
+              "value": "[{\"id\": 1, \"text\": \"Отличный продукт! Очень доволен покупкой, все работает идеально.\"}, {\"id\": 2, \"text\": \"Ужасное качество, сломалось через неделю. Не рекомендую.\"}, {\"id\": 3, \"text\": \"Обычный товар, ничего особенного. Соответствует описанию.\"}, {\"id\": 4, \"text\": \"Превосходное обслуживание! Быстрая доставка, отличное качество.\"}, {\"id\": 5, \"text\": \"Разочарован покупкой. Ожидал большего за эту цену.\"}]",
+              "type": "array"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        176,
+        0
+      ],
+      "id": "1cf856ff-87ed-4c5d-be72-adc6a0028a18",
+      "name": "Edit Fields1"
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "reviews",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [
+        352,
+        0
+      ],
+      "id": "160c0df1-3e43-47f7-b049-d90bcd369916",
+      "name": "Split Out"
+    },
+    {
+      "parameters": {
+        "inputText": "={{ $json.text }}",
+        "categories": {
+          "categories": [
+            {
+              "category": "Положительный",
+              "description": "Отзыв выражает удовлетворение, похвалу или положительные эмоции о продукте или услуги"
+            },
+            {
+              "category": "Отрицательный",
+              "description": "Отзыв содержит жалобы, критику или негативные эмоции о продукте или услуге"
+            },
+            {
+              "category": "Нейтральный",
+              "description": "Отзыв объективный, без явных положительных или отрицательных эмоций, просто констатация фактров"
+            }
+          ]
+        },
+        "options": {
+          "fallback": "other",
+          "systemPromptTemplate": "Ты эксперт по анализу отзывов. Классифицируй отзыв по тональности.\nКатегории: Положительный, Отрицательный, Нейтральный.\nВыбери ТОЛЬКО ОДНУ категорию.",
+          "enableAutoFixing": true
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.textClassifier",
+      "typeVersion": 1.1,
+      "position": [
+        544,
+        -32
+      ],
+      "id": "c90a307d-3033-42f7-86ba-e6b61649312f",
+      "name": "Text Classifier"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Напиши ответ на следующий отзыв:\nОтзыв: {{ $json.text }}\nID отзыва:  {{ $json.id }}",
+        "hasOutputParser": true,
+        "options": {
+          "systemMessage": "Ты эксперт по работе с клиентами. Твоя задача - писать персонализированные ответы на отзывы клиентов на русском языке.\n\nТребования к ответу:\n- Для ПОЛОЖИТЕЛЬНЫХ отзывов: поблагодари клиента, вырази радость от его удовлетворенности, предложи дополнительную поддержку\n- Для ОТРИЦАТЕЛЬНЫХ отзывов: извинись за неудобства, покажи понимание проблемы, предложи конкретное решение или компенсацию\n- Для НЕЙТРАЛЬНЫХ отзывов: поблагодари за обратную связь, предложи помощь, спроси что можно улучшить\n\nОтвет должен быть профессиональным, дружелюбным, длиной 2-4 предложения и персонализированным под конкретный отзыв."
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3.1,
+      "position": [
+        912,
+        -16
+      ],
+      "id": "b195a4e0-1c10-4c7f-8036-372da53142ba",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "content": "## AI-агент, для генерации ответов на отзывы",
+        "height": 512,
+        "width": 1504
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -32,
+        -144
+      ],
+      "typeVersion": 1,
+      "id": "95b2c249-2c11-4f53-9063-911e9dc19657",
+      "name": "Sticky Note"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "value": "gpt-4o-mini",
+          "mode": "list",
+          "cachedResultName": "gpt-4o-mini"
+        },
+        "builtInTools": {},
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.3,
+      "position": [
+        768,
+        208
+      ],
+      "id": "YOUR_id",
+      "name": "OpenAI Chat Model",
+      "credentials": {}
+    },
+    {
+      "parameters": {
+        "schemaType": "manual",
+        "inputSchema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"sentiment\": {\n      \"type\": \"string\",\n      \"enum\": [\"Положительный\", \"Отрицательный\", \"Нейтральный\"],\n      \"description\": \"Тональность отзыва на основе анализа\"\n    },\n    \"response\": {\n      \"type\": \"string\",\n      \"description\": \"Персонализированный ответ клиенту на русском языке, 2-4 предложения\"\n    },\n    \"id\": {\n      \"type\": \"number\",\n      \"description\": \"ID отзыва\"\n    }\n  },\n  \"required\": [\"sentiment\", \"response\", \"id\"]\n}"
+      },
+      "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
+      "typeVersion": 1.3,
+      "position": [
+        1088,
+        192
+      ],
+      "id": "60100f92-b45c-48be-b659-a7bf7ac5e961",
+      "name": "Structured Output Parser"
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "YOUR_value",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "YOUR_value",
+          "mode": "id"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "type": "={{ $json.output.sentiment }}",
+            "id": "={{ $('Text Classifier').item.json.id }}",
+            "feedback": "={{ $('Text Classifier').item.json.text }}",
+            "ai_answer": "={{ $json.output.response }}"
+          },
+          "matchingColumns": [
+            "id"
+          ],
+          "schema": [
+            {
+              "id": "id",
+              "displayName": "id",
+              "required": false,
+              "defaultMatch": true,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "feedback",
+              "displayName": "feedback",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "type",
+              "displayName": "type",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "ai_answer",
+              "displayName": "ai_answer",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        1232,
+        -16
+      ],
+      "id": "782d788e-f0cb-43b4-9633-0636116f4b40",
+      "name": "Append row in sheet",
+      "credentials": {}
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields1": {
+      "main": [
+        [
+          {
+            "node": "Split Out",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Split Out": {
+      "main": [
+        [
+          {
+            "node": "Text Classifier",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Text Classifier": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Text Classifier",
+            "type": "ai_languageModel",
+            "index": 0
+          },
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Structured Output Parser": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Agent": {
+      "main": [
+        [
+          {
+            "node": "Append row in sheet",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Append row in sheet": {
+      "main": [
+        []
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "YOUR_versionId",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "YOUR_instanceId"
+  },
+  "id": "YOUR_ID",
+  "tags": []
+}
