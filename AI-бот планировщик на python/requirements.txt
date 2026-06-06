@@ -1,0 +1,11 @@
+python-telegram-bot==22.7
+google-api-python-client==2.197.0
+google-auth-httplib2==0.4.0
+google-auth-oauthlib==1.4.0
+openai==2.40.0
+whisper==1.1.10
+pytz==2026.2
+python-dotenv==1.2.2
+requests==2.34.2
+APScheduler==3.11.2
+root@vdska:/my_planner_bot#
