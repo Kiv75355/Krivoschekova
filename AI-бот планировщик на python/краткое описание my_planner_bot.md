@@ -11,15 +11,15 @@
 - Кнопочное меню
 
 #### Взаимодействие файлов:
-main.py			Точка входа, запускает бота (запускает Пользователь)
-bot.py			Главный файл: кнопки, команды, обработка текста/голоса	(запускает main.py)
-scheduler.py		Планировщик: утренняя сводка в 7:00 и напоминания каждые 30 мин	(запускает bot.py)
-calendar_handler.py	Работа с Google Calendar (запускает bot.py, scheduler.py)
-calendar_auth.py	Авторизация и управление токенами Google (запускает calendar_handler.py)
-ai_parser.py		Парсинг дат и времени через OpenAI GPT (запускает calendar_handler.py)
-voice_handler.py	Распознавание голоса через Whisper (запускает bot.py)
-requirements.txt	Список зависимостей Python 
-.env.example		Шаблон переменных окружения
+- main.py			Точка входа, запускает бота (запускает Пользователь)
+- bot.py			Главный файл: кнопки, команды, обработка текста/голоса	(запускает main.py)
+- scheduler.py		Планировщик: утренняя сводка в 7:00 и напоминания каждые 30 мин	(запускает bot.py)
+- calendar_handler.py	Работа с Google Calendar (запускает bot.py, scheduler.py)
+- calendar_auth.py	Авторизация и управление токенами Google (запускает calendar_handler.py)
+- ai_parser.py		Парсинг дат и времени через OpenAI GPT (запускает calendar_handler.py)
+- voice_handler.py	Распознавание голоса через Whisper (запускает bot.py)
+- requirements.txt	Список зависимостей Python 
+- .env.example		Шаблон переменных окружения
 
 #### Установка
 1. Клонируйте репозиторий
